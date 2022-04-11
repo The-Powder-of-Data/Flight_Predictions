@@ -9,3 +9,5 @@ Our test data was the first week of flights in 2020.
 - Feature Engineering
 - Modeling
 - Final Outputs 
+
+Words by Sean (again)
