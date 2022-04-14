@@ -4,7 +4,13 @@ WHERE schemaname != 'pg_catalog' AND
     schemaname != 'information_schema';
 
 
-SELECT * FROm flights LIMIT 100000; 
+SELECT * FROM flights_test;
+SELECT EXTRACT(MONTH FROM TO_DATE(fl_date)) AS month FROM flights_test;
+
+
+
+
+SELECT * FROm flights LIMIT 10; 
 SELECT * FROM passengers LIMIT 2;
 SELECT * FROM fuel_comsumption LIMIT 2;
 
